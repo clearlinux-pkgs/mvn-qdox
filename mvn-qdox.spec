@@ -4,7 +4,7 @@
 #
 Name     : mvn-qdox
 Version  : 2.0.m2
-Release  : 4
+Release  : 5
 URL      : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M2/qdox-2.0-M2.jar
 Source0  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M2/qdox-2.0-M2.jar
 Source1  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar

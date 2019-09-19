@@ -4,7 +4,7 @@
 #
 Name     : mvn-qdox
 Version  : 2.0.m2
-Release  : 6
+Release  : 7
 URL      : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M2/qdox-2.0-M2.jar
 Source0  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M2/qdox-2.0-M2.jar
 Source1  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
@@ -19,7 +19,9 @@ Source9  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox
 Source10  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar
 Source11  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.pom
 Source12  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
-Source13  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+Source13  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+Source14  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+Source15  : https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -84,7 +86,13 @@ mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2
 cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
 
 
 %files
